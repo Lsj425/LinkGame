@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--开始新游戏-->
+    <item
+        android:id="@+id/newGame"
+        android:icon="@drawable/ic_restart"
+        android:title="重新开始"
+        app:showAsAction="always"
+        />
+
+    <!--页面重排-->
+    <item
+        android:id="@+id/shuffle"
+        android:icon="@drawable/ic_shuffle"
+        android:title="重排道具"
+        app:showAsAction="always" />
+
+    <!--难度选择子菜单-->
+    <item
+        android:id="@+id/rank"
+        android:title="难度选择"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/easy"
+                    android:title="简单(10种)"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/medium"
+                    android:title="中等(15种)"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/diffculty"
+                    android:title="困难(25种)"
+                    app:showAsAction="never" />
+
+            </group>
+        </menu>
+    </item>
+
+    <!--音效开关子菜单-->
+    <item
+        android:id="@+id/music"
+        android:title="音效开关"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/on"
+                    android:title="开启"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/off"
+                    android:title="关闭"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <!--背景音乐选择子菜单-->
+    <item
+        android:id="@+id/bgm"
+        android:title="BGM选择"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/song1"
+                    android:title="Avengers"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/song2"
+                    android:title="Assemble"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/song3"
+                    android:title="Helicarrier"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/song4"
+                    android:title="Heroes"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/song5"
+                    android:title="InfinityWar"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>

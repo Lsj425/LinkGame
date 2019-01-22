@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A1022"
+    android:orientation="vertical"
+    tools:context=".LinkGameFragment">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="330dp"
+        android:layout_height="510dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/bg_main" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bg"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="快速开始"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/guide"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bg"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="新手指引"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

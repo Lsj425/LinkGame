@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/nav_guidance"
+        android:title="说明" />
+
+    <item
+        android:id="@+id/navigation_game"
+        android:icon="@drawable/nav_game"
+        android:title="游戏" />
+
+    <item
+        android:id="@+id/navigation_billboard"
+        android:icon="@drawable/nav_billboard"
+        android:title="排行榜" />
+
+</menu>
