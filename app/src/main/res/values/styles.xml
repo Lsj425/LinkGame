@@ -1,4 +1,5 @@
 <resources>
+    <!--美队蓝-->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
@@ -10,7 +11,113 @@
 
     <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowTranslucentStatus">false</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
         <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Default">
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:background">@drawable/bg_button_default</item>
+        <!--<item name="com.github.airsaid.accountbook:backgroundTint">?attr/colorAccent</item>-->
+    </style>
+
+    <!--铁人金-->
+    <style name="AppTheme.Gold" >
+        <item name="colorPrimary">@color/colorPrimaryGold</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGold</item>
+        <item name="colorAccent">@color/colorAccentGold</item>
+    </style>
+
+    <!--雷神棕-->
+    <style name="AppTheme.Brown">
+        <item name="colorPrimary">@color/colorPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/colorAccentBrown</item>
+    </style>
+
+    <!--浩克绿-->
+    <style name="AppTheme.Green">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+    </style>
+
+    <!--毒液黑-->
+    <style name="AppTheme.Black">
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+    </style>
+
+    <!--美队蓝actionbar-->
+    <style name="AppTheme.Blue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--铁人金actionbar-->
+    <style name="AppTheme.GoldActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGold</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGold</item>
+        <item name="colorAccent">@color/colorAccentGold</item>
+    </style>
+
+    <!--雷神棕actionbar-->
+    <style name="AppTheme.BrownActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/colorAccentBrown</item>
+    </style>
+
+    <!--浩克绿actionbar-->
+    <style name="AppTheme.GreenActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+    </style>
+
+    <!--毒液黑actionbar-->
+    <style name="AppTheme.BlackActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
+    </style>
+
+    <!--美队蓝Noactionbar-->
+    <style name="AppTheme.BlueNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--铁人金Noactionbar-->
+    <style name="AppTheme.GoldNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGold</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGold</item>
+        <item name="colorAccent">@color/colorAccentGold</item>
+    </style>
+
+    <!--雷神棕Noactionbar-->
+    <style name="AppTheme.BrownNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/colorAccentBrown</item>
+    </style>
+
+    <!--浩克绿Noactionbar-->
+    <style name="AppTheme.GreenNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+    </style>
+
+    <!--毒液黑Noactionbar-->
+    <style name="AppTheme.BlackNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlack</item>
+        <item name="colorAccent">@color/colorAccentBlack</item>
     </style>
 </resources>

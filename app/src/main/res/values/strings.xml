@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">响指连连看</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="about_introduce">
+        简洁、方便、休闲益智\n\n
+        ------制作背景------\n\n
+        这款App是我们移动应用开发课程的上机实验，旨在帮助我们认识Android的系统架构，
+        了解并能够熟练运用Android四大组件、多线程开发以及持久化存储，
+        从而初步掌握Android开发的基本流程。按照实验要求做的初代App比较简陋，
+        后来我为其增加了更多的功能，目前还处于测试阶段，有许多Bug还望各位海涵，谢谢~\n\n
+        ------主要功能------\n\n
+        - 支持连连看小游戏的基本操作\n
+        - 游戏成绩可持久化存储\n
+        - 多个背景音乐及应用主题以供选择\n
+        - 增加查看漫画人物资料卡等拓展功能\n
+    </string>
+
+    <string name="menu_action_all_down">All down</string>
+    <string name="menu_action_up_down">Up down</string>
+    <string name="menu_action_up_down_stack">Up down stack</string>
 </resources>

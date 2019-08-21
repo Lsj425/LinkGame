@@ -1,27 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/bg_game"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LinkGameFragment">
+    android:background="#8A1022"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/bg_game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LinkGameFragment">
 
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:overScrollMode="never" />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"
-        android:overScrollMode="never" />
+        <ImageView
+            android:id="@+id/bomb"
+            android:layout_width="45dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="342dp"
+            android:src="@drawable/img_selector"
+            android:clickable="true" />
 
-    <ImageView
-        android:id="@+id/bomb"
-        android:layout_width="45dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="560dp"
-        android:layout_marginLeft="342dp"
-        android:src="@drawable/img_selector"
-        android:clickable="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            />
+    </RelativeLayout>
+</ScrollView>
 
-</RelativeLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:background="@drawable/bg_game"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:context=".LinkGameFragment">-->
+
+<!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/recyclerview"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:overScrollMode="never" />-->
+
+<!--<ImageView-->
+    <!--android:id="@+id/bomb"-->
+    <!--android:layout_width="45dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:layout_marginTop="560dp"-->
+    <!--android:layout_marginLeft="342dp"-->
+    <!--android:src="@drawable/img_selector"-->
+    <!--android:clickable="true" />-->
+
+<!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="70dp"-->
+    <!--/>-->
+<!--</RelativeLayout>-->
