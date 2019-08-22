@@ -1,6 +1,16 @@
-# 响指连连看
+# 响指连连看 :rocket:
 ## 1、项目简介
-这是一款基于安卓平台的漫威主题连连看app，我们大三移动应用开发课程的实验作业。旨在帮助我们初步认识安卓开发，了解和简单使用Android四大组件、多线程开发以及持久化存储，从而初步掌握Android开发的基本流程。
+<table>
+  <tr>
+    <th>App logo</th>
+    <th>描述</th>
+  </tr>
+  <tr>
+    <td><img width="110" height="110" src="https://github.com/Lsj425/LinkGame/blob/master/imgs/icon.png"></td>
+    <td width="600">这是一款基于安卓平台的漫威主题连连看app，我们大三移动应用开发课程的实验作业。旨在帮助我们初步认识安卓开发，了解和简单使用Android四大组件、多线程开发以及持久化存储，从而初步掌握Android开发的基本流程。</td>
+  </tr>
+</table>
+
 ### 1.1 版本日志
 v1.0.0: 2019.01.29<br>
 * 游戏规则简介、道具使用方式的动态指引
@@ -9,13 +19,24 @@ v1.0.0: 2019.01.29<br>
 * 可选的背景音乐及应用主题
 * 连连看图标的个人资料卡展示
 * 问题反馈
+
+Apk安装包：https://github.com/Lsj425/LinkGame/blob/master/debug
+
 ### 1.2 程序效果
-![imge](https://github.com/Lsj425/LinkGame/blob/master/imgs/1.gif)
-![imge](https://github.com/Lsj425/LinkGame/blob/master/imgs/2.gif)
-![imge](https://github.com/Lsj425/LinkGame/blob/master/imgs/3.gif)
-![imge](https://github.com/Lsj425/LinkGame/blob/master/imgs/4.gif)
-![imge](https://github.com/Lsj425/LinkGame/blob/master/imgs/5.gif)
-![imge](https://github.com/Lsj425/LinkGame/blob/master/imgs/6.gif)<br>
+<table>
+  <tr>
+    <td><img src="https://github.com/Lsj425/LinkGame/blob/master/imgs/1.gif" align="center" height="500" /></td>
+    <td><img src="https://github.com/Lsj425/LinkGame/blob/master/imgs/2.gif" align="center" height="500" /></td>
+    <td><img src="https://github.com/Lsj425/LinkGame/blob/master/imgs/3.gif" align="center" height="500" /></td>
+  </tr>
+    <tr>
+    <td><img src="https://github.com/Lsj425/LinkGame/blob/master/imgs/4.gif" align="center" height="500" /></td>
+    <td><img src="https://github.com/Lsj425/LinkGame/blob/master/imgs/5.gif" align="center" height="500" /></td>
+    <td><img src="https://github.com/Lsj425/LinkGame/blob/master/imgs/6.gif" align="center" height="500" /></td>
+  </tr>
+</table>
+<br><br>
+
 **本应用素材均来源于网络，如有侵权，请及时联系本人**
 ## 2、上手指南
 以下指南将帮助你在本地机器上安装和运行该项目，进行开发和测试。关于如何将该项目部署到在线环境，请参考部署小节。
